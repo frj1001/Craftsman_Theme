@@ -1,0 +1,1300 @@
+@media (max-width:910px){
+    #top-nav {
+        height: 75px;
+    }
+
+    #custom-container {
+        flex-wrap: wrap;
+    }
+
+    #right {
+        padding-top: 8px;
+    }
+}
+
+@media (max-width:767px){
+    #top-nav {
+        display: none;        
+    }
+
+}
+
+@media (min-width:992px){
+    #brand1 {
+        display: none;
+    }
+
+    ul {
+        height: inherit !important;
+    }
+
+    .twelve-outer {
+        display: none;
+    }
+}
+
+@media (max-width:991px){
+    #brand2 {
+        display: none;
+    }
+
+    ul {
+        display: block !important;
+        font-size: 1.5rem !important; 
+        text-align: center;
+        padding-top: 20%;
+    }
+
+    #home a {
+        color: #00bcd4 !important;
+    }
+
+    .twelve-inner {
+        display: none;
+    }
+}
+
+@media (max-width:1200px){
+    .gap-one {
+        display: none;
+    }
+    .gap-three {
+        display: none;
+    }
+}
+
+@media (min-width:1200px){
+    .alias-mid1 {
+        display: flex !important;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1299px){
+    #four {
+        height: 53vw;
+    }
+
+    #custom-cont {
+        height: 38vw;
+        width: 43%;
+    }
+    
+    #five {
+        height: 38vw;
+    }
+
+    #five .container {
+        width: 65%;
+        height: 25vw;
+    }
+
+    #eight {
+        height: 80vw;
+    }
+
+    #eight #bottom-custom {
+        height: 54%;
+        width: 100%
+    }
+
+    #nine {
+        height: 83vw;
+    }
+
+    #nine-top {
+        height: 10%;
+    }
+    
+    #nine-bottom {
+        max-height: 60%;
+        width: 94%
+    }
+
+    #eleven {
+        height: 20vw;
+    }
+
+    #thirteen #mid {
+        height: 42% !important;
+    }
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px){
+    #brand2 {
+        display: none;
+    }
+
+    #hero {
+        height: 50vw;
+    }
+    .carousal-img {
+        height: 50vw;
+    }
+    .intro {
+        height: 30vw;
+        width: 70%;
+    }
+    .intro .contact {
+        width: 100%;
+    }
+    .custom-box {
+        height: 20vw;
+    }
+
+    #two {
+        height: 70vw;
+    }
+
+    .gap-two {
+        background-color: #f2f2ef !important;
+    }
+
+    #three {
+        height: 95vw;
+    }
+
+    #three .ico {
+        max-width: 80px;
+    }
+
+    #four {
+        height: 60vw;
+    }
+
+    #custom-cont {
+        height: 40vw;
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    #experience .col-sm-4 {
+        max-width: 180px;
+    }
+
+    #experience .col-sm-8 {
+        max-width: 300px;
+    }
+
+    #availability .icon {
+        max-width: 60px;
+    }
+
+    #five {
+        height: 45vw;
+    }
+
+    #five .container {
+        width: 58%;
+        height: 30vw;
+    }
+
+    #main-no {
+        max-height: 300px;
+        max-width: 430px !important;
+    }
+
+    #main-no .col-md-2 {
+        min-width: 120px !important;
+    }
+
+    #main-no .col-md-10 {
+        font-size: 44px !important;
+        padding: 4% 0;
+        max-width: 300px !important;
+    }
+
+    #six {
+        height: 120vw;
+    }
+
+    #six-top {
+        height: 50%;
+    }
+
+    #six-top .container {
+        width: 80% !important;
+    }
+
+    #home-service {
+        height: 50%;
+    }
+
+    #seven {
+        height: 70vw;
+    }
+
+    .features .container {
+        height: 28vw;
+    }
+
+    #craft {
+        height: 45%;
+    }
+
+    #seven .features {
+        height: 55%;
+    }
+
+    #eight {
+        height: 90vw;
+    }
+
+    #eight #bottom-custom {
+        height: 60%;
+        width: 100%
+    }
+
+    
+
+    #bottom-custom .col-lg-3 .container {
+        padding: 0;
+        margin: 0;
+    }
+
+    #nine {
+        height: 93vw;
+    }
+
+    #nine-top {
+        height: 10%;
+    }
+    
+    #nine-bottom {
+        height: 60%;
+        width: 100%
+    }
+
+    .pricing-top .container {
+        width: 81% !important;
+    }
+
+    #ten {
+        height: 90vw;
+    }
+
+    #ten-left {
+        height: 50%;
+    }
+
+    #ten-right {
+        height: 50%;
+    }
+
+    .iner-left {
+        max-width: 110px;
+    }
+
+    #eleven {
+        height: 20vw;
+    }
+
+    #cabinetry {
+        display: none;
+    }
+
+    #indoor-2 {
+        display: none;
+    }
+
+    .ind-mid {
+        height: 40% !important;
+    }
+
+    #twelve {
+        height: 60vw;
+    }
+
+    #twelve-bottom {
+        height: 42vw;
+    }
+
+    .inner-box {
+        height: 80%;
+    }
+    
+    #thirteen {
+        height: 63vw;
+    }
+    
+    #thirteen .container {
+        height: 70%;
+        width: 90%;
+    }
+
+    #fourteen {
+        height: 120vw;
+    }
+
+    #fourteen-left {
+        height: 50%;
+    }
+
+    #fourteen-right {
+        height: 50%;
+    }
+
+    footer {
+        height: 10vw;
+    }
+    
+    footer div {
+        width: 30%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    #hero {
+        height: 80vw;
+    }
+    .carousal-img {
+        height: 80vw;
+    }
+    .intro {
+        height: 40vw;
+        width: 80%;
+    }
+    .intro .contact {
+        width: 100%;
+    }
+    .custom-box {
+        height: 25vw;
+    }
+
+    #two {
+        height: 150vw;
+    }
+
+    #img-one {
+        height: 50%;
+    }
+
+    #img-about {
+        height: 40%;
+    }
+
+    #img-about .container {
+        height: 100%;
+    }
+
+    .gap-two {
+        background-color: #f2f2ef !important;
+    }
+
+    #three {
+        height: 130vw;
+    }
+
+    #three .ico {
+        max-width: 80px;
+    }
+
+    #four {
+        height: 80vw;
+    }
+
+    #custom-cont {
+        height: 60vw;
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    #experience .col-sm-4 {
+        max-width: 180px;
+    }
+
+    #experience .col-sm-8 {
+        max-width: 300px;
+    }
+
+    #availability .icon {
+        max-width: 60px;
+    }
+
+    #five {
+        height: 60vw;
+    }
+
+    #five .container {
+        width: 65%;
+        height: 30vw;
+    }
+
+    #main-no {
+        max-height: 300px;
+        max-width: 430px !important;
+    }
+
+    #main-no .col-md-2 {
+        min-width: 120px !important;
+    }
+
+    #main-no .col-md-10 {
+        font-size: 44px !important;
+        padding: 4% 0;
+        max-width: 300px !important;
+    }
+
+    #six {
+        height: 150vw;
+    }
+
+    #six-top {
+        height: 50%;
+    }
+
+    #six-top .container {
+        width: 80% !important;
+    }
+
+    #home-service {
+        height: 50%;
+    }
+
+    #seven {
+        height: 130vw;
+    }
+
+    #craft {
+        height: 25%;
+    }
+
+    #seven .features {
+        height: 25%;
+    }
+
+    #eight {
+        height: 180vw;
+    }
+
+    #eight #top-custom {
+        height: 9%;
+        width: 60%;
+    }
+
+    #eight #bottom-custom {
+        height: 70%;
+        width: 100%
+    }
+
+    #nine {
+        height: 120vw;
+    }
+
+    #nine-top {
+        height: 15%;
+        width: 60%;
+    }
+    
+    #nine-bottom {
+        height: 60%;
+        width: 100%
+    }
+
+    .pricing-top .container {
+        width: 90% !important;
+    }
+
+    .pricing-top .container .one {
+        font-size: 1.8rem !important;
+    }
+
+    .pricing-top .container .two {
+        font-size: 1.2rem !important;
+    }
+
+    #ten {
+        height: 120vw;
+    }
+
+    #ten-left {
+        height: 50%;
+    }
+
+    #ten-right {
+        height: 50%;
+    }
+
+    .outer-left{
+        height: 18vw !important;
+    }
+
+    .iner-left {
+        max-width: 110px;
+    }
+
+    #eleven {
+        height: 30vw;
+    }
+
+    #cabinetry {
+        display: none;
+    }
+
+    #indoor-2 {
+        display: none;
+    }
+
+    .top-width {
+        width: 70% !important;
+    }
+
+    #twelve {
+        height: 70vw;
+    }
+
+    #twelve-bottom {
+        height: 75vw;
+        width: 92%;
+    }
+
+    #news1 {
+        height: 50%;
+    }
+
+    #news2 {
+        height: 50%;
+    }
+
+    #thirteen {
+        margin-top: 35%;
+        height: 100vw;
+    }
+    
+    #thirteen .container {
+        height: 80%;
+        width: 90%;
+    }
+
+    #elec-top {
+        height: 6% !important;
+    }
+
+    #mid {
+        height: 43% !important;
+    }
+
+    #elec-bottom {
+        height: 16% !important;
+    }
+
+    #elec-btn {
+        height: 6%;
+    }
+
+    #fourteen {
+        height: 150vw;
+    }
+
+    #fourteen-left {
+        height: 50%;
+    }
+
+    #fourteen-right {
+        height: 50%;
+    }
+
+    footer {
+        height: 10vw;
+    }
+    
+    footer div {
+        width: 32%;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px){
+    #hero {
+        height: 100vw;
+    }
+    .carousal-img {
+        height: 100vw;
+    }
+    .intro {
+        height: 40vw;
+        width: 100%;
+    }
+    .intro .contact {
+        display: none;
+    }
+    .custom-box {
+        height: 30vw;
+        width: 100%;
+    }
+    .custom-box .top{
+        font-size: 1rem; 
+        font-weight: 600; 
+        color: #bf9c61;
+    }
+    .custom-box .middle{
+        font-size: 3.5rem; 
+        font-weight: 900; 
+        color: white;
+    }
+    .custom-box .bottom{
+        font-size: 2.8rem; 
+        color: #bf9c61;
+    }
+
+    #two {
+        height: 230vw;
+    }
+    #img-one {
+        height: 40%;
+    }
+    #img-about {
+        height: 60%;
+    }
+    #img-about .container {
+        height: 100%;
+    }
+
+    .gap-two {
+        background-color: #f2f2ef !important;
+    }
+
+    #three {
+        height: 250vw;
+    }
+
+    #three .container .row {
+        text-align: center;
+    }
+
+    #four {
+        height: 140vw;
+    }
+    #custom-cont {
+        height: 100vw;
+        width: 100%;
+        margin-left: 2%;
+    }
+    #experience .col-sm-4 {
+        max-width: 180px;
+    }
+    #experience .col-sm-8 {
+        max-width: 300px;
+    }
+    #availability .inner {
+        flex-wrap: wrap;
+    }
+    #availability .icon {
+        width: 100%;
+        text-align: center;
+    }
+    #availability .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    #five {
+        height: 90vw;
+    }
+
+    #five .container {
+        width: 90%;
+        height: 60vw;
+    }
+
+    #main-no {
+        max-height: 300px;
+        max-width: 430px !important;
+    }
+
+    #main-no .col-md-10 {
+        font-size: 44px !important;
+        text-align: center;
+    }
+
+    #six {
+        height: 205vw;
+    }
+
+    #six-top {
+        height: 50%;
+    }
+
+    #six-top .container {
+        width: 80% !important;
+        height: 80% !important;
+    }
+
+    #home-service {
+        height: 50%;
+    }
+
+    #seven {
+        height: 200vw;
+    }
+
+    #craft {
+        height: 25%;
+    }
+
+    #seven .features {
+        height: 25%;
+    }
+
+    .features .container {
+        height: 40vw;
+    }
+
+    #eight {
+        height: 390vw;
+    }
+
+    #eight #top-custom {
+        height: 6%;
+        width: 80%;
+    }
+
+    #eight #bottom-custom {
+        height: 80%;
+        width: 100%
+    }
+
+    #nine {
+        height: 230vw;
+    }
+
+    #nine-top {
+        height: 8%;
+        width: 80%;
+    }
+    
+    #nine-bottom {
+        height: 80%;
+        width: 100%
+    }
+
+    .pricing-top .container {
+        width: 90% !important;
+    }
+
+    .pricing-top .container .one {
+        font-size: 1.8rem !important;
+    }
+
+    .pricing-top .container .two {
+        font-size: 1.2rem !important;
+    }
+
+    #price-3 {
+        margin: auto;
+        height: 80vw;
+    }
+
+    #ten {
+        height: 170vw;
+    }
+
+    #ten-left {
+        height: 50%;
+    }
+
+    #ten-right {
+        height: 50%;
+    }
+
+    .outer-left {
+        height: 28vw !important;
+    }
+
+    .iner-left {
+        max-width: 100% !important;
+        height: 60% !important;
+        display: flex !important; 
+        justify-content: center !important;
+    }
+
+    .iner-right {
+        text-align: center;
+    }
+
+    #eleven {
+        height: 50vw;
+    }
+
+    #cabinetry {
+        display: none;
+    }
+
+    #indoor-2 {
+        display: none;
+    }
+
+    #woodsupply {
+        display: none;
+    }
+
+    #homewood-2 {
+        display: none;
+    }
+
+    #twelve {
+        height: 130vw;
+    }
+
+    #twelve-top {
+        height: 13vw;
+        width: 50%;
+    }
+
+    #twelve-2 {
+        font-size: 2.5rem !important;
+    }
+
+    #twelve-bottom {
+        height: 110vw;
+        width: 92%;
+        margin-top: 12%;
+    }
+
+    #news1 {
+        height: 40%;
+    }
+
+    #news2 {
+        height: 40%;
+    }
+
+    .twelve-outer {
+        height: 60%;
+    }
+
+    #thirteen {
+        margin-top: 33%;
+        height: 200vw;
+    }
+    
+    #thirteen .container {
+        height: 76%;
+        width: 90%;
+    }
+
+    #elec-top {
+        height: 4% !important;
+    }
+
+    #mid {
+        height: 55% !important;
+    }
+
+    #elec-bottom {
+        height: 13% !important;
+    }
+
+    #elec-btn {
+        height: 4%;
+    }
+
+    #fourteen {
+        height: 330vw;
+    }
+
+    #fourteen-left {
+        height: 65%;
+    }
+
+    #fourteen-right {
+        height: 35%;
+    }
+
+    #logo2 {
+        height: 17% !important;
+    }
+
+    #alias {
+        height: 85% !important;
+        text-align: center;
+    }
+
+    #alias-mid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .break {
+        display: block !important;
+    }
+
+    #consult {
+        font-size: 1.7rem !important;
+    }
+
+    footer {
+        height: 12vw;
+    }
+    
+    footer div {
+        width: 40%;
+    }
+
+}
+@media (min-width:360px) and (max-width:575px){
+    #hero {
+        height: 150vw;
+    }
+    .carousal-img {
+        height: 150vw;
+    }
+    .intro {
+        height: 50vw;
+        width: 100%;
+    }
+    .intro .contact {
+        display: none;
+    }
+    .custom-box {
+        height: 40vw;
+        width: 100%;
+    }
+    .custom-box .top{
+        font-size: 4vw; 
+        font-weight: 600; 
+        color: #bf9c61;
+    }
+    .custom-box .middle{
+        font-size: 8vw; 
+        font-weight: 900; 
+        color: white;
+    }
+    .custom-box .bottom{
+        font-size: 6vw; 
+        color: #bf9c61;
+    }
+
+    #two {
+        height: 380vw;
+    }
+    #img-one {
+        height: 30%;
+    }
+    #img-about {
+        height: 70%;
+    }
+    #img-about .container {
+        height: 100%;
+    }
+
+    .gap-two {
+        background-color: #f2f2ef !important;
+    }
+
+    #three {
+        height: 480vw;
+    }
+
+    #three .container .row {
+        text-align: center;
+    }
+
+    #four {
+        height: 340vw;
+    }
+    #custom-cont {
+        height: 250vw;
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    #experience .col-sm-8 {
+        font-size: 10vw !important; 
+    }
+    #custom-cont #p{
+        font-size: 5vw !important;
+    }
+    #availability .inner {
+        flex-wrap: wrap;
+    }
+    #availability .icon {
+        width: 100%;
+        text-align: center;
+    }
+    #availability .text {
+        width: 100%;
+        text-align: center;
+    }
+
+    #five {
+        height: 180vw;
+    }
+
+    #five .container {
+        width: 90%;
+        height: 120vw;
+    }
+
+    #main-no {
+        max-height: 300px;
+        max-width: 430px !important;
+    }
+
+    #main-no .col-md-10 {
+        font-size: 44px !important;
+        text-align: center;
+    }
+
+    #six {
+        height: 340vw;
+    }
+
+    #six-top {
+        height: 50%;
+    }
+
+    #six-top .container {
+        width: 87% !important;
+        height: 87% !important;
+    }
+
+    #home-service {
+        height: 50%;
+    }
+
+    #seven {
+        height: 450vw;
+    }
+
+    #craft {
+        height: 25%;
+    }
+
+    #craft .container {
+        height: 30vw;
+    }
+
+    #seven .features {
+        height: 25%;
+    }
+
+    .features .container {
+        height: 90vw;
+    }
+
+    #eight {
+        height: 620vw;
+    }
+
+    #eight #top-custom {
+        height: 6%;
+        width: 80%;
+    }
+
+    #eight #bottom-custom {
+        height: 85%;
+        width: 100%
+    }
+
+    #nine {
+        height: 470vw;
+    }
+
+    #nine-top {
+        height: 5%;
+        width: 90%;
+    }
+
+    #nine-bottom {
+        height: 80%;
+        width: 100%
+    }
+
+    .full-col {
+        height: 32%;
+    }
+
+    #top-2 {
+        font-size: 2.3rem !important;
+    }
+
+    .pricing-top .container .one {
+        font-size: 5vw !important;
+    }
+
+    .pricing-top .container .two {
+        font-size: 1.4rem !important;
+    }
+
+    #ten {
+        height: 380vw;
+    }
+
+    #ten-left {
+        height: 50%;
+    }
+
+    #ten-right {
+        height: 50%;
+    }
+
+    .outer-left {
+        height: 50vw !important;
+    }
+
+    .iner-left {
+        max-width: 100% !important;
+        height: 60% !important;
+        display: flex !important; 
+        justify-content: center !important;
+    }
+
+    .iner-right {
+        text-align: center;
+    }
+
+    #eleven {
+        height: 120vw;
+    }
+
+    #cabinetry {
+        display: none;
+    }
+
+    #indoor-2 {
+        display: none;
+    }
+
+    #woodsupply {
+        display: none;
+    }
+
+    #homewood-2 {
+        display: none;
+    }
+
+    #residential {
+        display: none;
+    }
+
+    #indoor-1 {
+        display: none;
+    }
+
+    .type-one .container {
+        height: 30%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #commercial .mid-name{
+        height: 30% !important;
+    }
+
+    .top-ico i {
+        font-size: 1.3rem !important;
+    }
+
+    .para {
+        display: none;
+    }
+
+    #twelve {
+        height: 200vw;
+    }
+
+    #twelve-top {
+        height: 25vw;
+        width: 70%;
+    }
+
+    #twelve-2 {
+        font-size: 2.2rem !important;
+    }
+
+    #twelve-bottom {
+        height: 170vw;
+        width: 92%;
+        margin-top: 12%;
+    }
+
+    #news1 {
+        height: 30%;
+    }
+
+    #news2 {
+        height: 30%;
+    }
+
+    .twelve-outer {
+        height: 70%;
+    }
+
+    .outer-box {
+        height: 90%;
+    }
+
+    #thirteen {
+        margin-top: 33%;
+        height: 300vw;
+    }
+    
+    #thirteen .container {
+        height: 76%;
+        width: 90%;
+    }
+
+    #elec-top {
+        height: 4% !important;
+    }
+
+    #mid {
+        height: 55% !important;
+    }
+
+    #elec-bottom {
+        height: 9% !important;
+        font-size: 4vw !important;
+    }
+
+    #elec-btn {
+        height: 4%;
+    }
+
+    #fourteen {
+        height: 520vw;
+    }
+
+    #fourteen-left {
+        height: 63%;
+    }
+
+    #fourteen-right {
+        height: 37%;
+    }
+
+    #logo2 {
+        height: 17% !important;
+    }
+
+    #alias {
+        height: 90% !important;
+        text-align: center;
+    }
+
+    #alias-mid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .break {
+        display: block !important;
+    }
+
+    #consult {
+        font-size: 1.7rem !important;
+    }
+
+    footer {
+        height: 20vw;
+    }
+    
+    footer div {
+        width: 80%;
+    }
+
+}

@@ -1,0 +1,718 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+    font-weight: 700;
+}
+
+#top-nav{
+    height: 51px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top-nav a{
+    text-decoration: none;
+    color: rgb(141, 138, 138);
+}
+
+#top-nav a i:hover {
+    color: blue;
+}
+
+#custom-container {
+    width: 87%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#left {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    min-width: 654px;
+}
+
+#add-pho {
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#social {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    min-width: 163px;
+}
+
+#right {
+    width: 45%;
+    display: flex;
+    justify-content: end;
+}
+
+#right .btn-secondary:hover {
+    background-color: white !important;
+    color: black;
+}
+
+#main-nav {
+    height: 91px;
+    border: 1px solid black;
+}
+
+#inner-nav {
+    padding-top: 1.5%;
+}
+
+.scrollfix {
+    position: fixed ;
+    top: 0 ;
+}
+
+.nav-link:hover {
+    color: #bf9c61 !important;
+}
+
+#hero {
+    height: 38vw;
+}
+
+.carousal-img {
+    width: 100%;
+    height: 38vw;
+}
+
+.bg-img-1 {
+    background-image: url(hero-two.jpg);
+    background-size: cover;
+}
+
+.bg-img-2 {
+    background-image: url(hero-one.jpg);
+    background-size: cover;
+}
+
+.intro {
+    height: 21vw;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro .contact {
+    width: 83%;
+    display: flex;
+    justify-content: end;
+}
+
+.intro .contact .contact-inner {
+    min-width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro .contact .details {
+    font-size: 0.6rem;
+    max-width: 100px;
+    min-width: 100px;
+    text-align: end;
+    line-height: 1.1;
+    padding-top: 4px;
+    color: #bf9c61;
+}
+
+.intro .contact .number {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.custom-box {
+    height: 15vw;
+    width: 95%;
+    text-align: center;
+}
+
+.custom-box .top{
+    font-size: 1.2rem; 
+    font-weight: 600; 
+    color: #bf9c61;
+}
+
+.custom-box .middle{
+    font-size: 3.7rem; 
+    font-weight: 900; 
+    color: white;
+}
+
+.custom-box .bottom{
+    font-size: 3rem; 
+    color: #bf9c61;
+}
+
+#outer-intro {
+    height: 100%;
+}
+
+.gap-one {
+    height: 10vw;
+}
+
+#two {
+    height: 50vw;
+}
+
+#img-one {
+    background-image: url(about.jpg);
+    background-size: cover;
+}
+
+#img-about {
+    display: flex;
+    align-items: center;
+}
+
+#read-btn .btn-primary:hover {
+    background-color: #bf9c61 !important;
+    color: white !important;
+}
+
+.gap-two {
+    height: 10vw;
+}
+
+#three {
+    height: 50vw;
+}
+
+#four {
+    height: 50vw;
+    background-image: url(services.jpg);
+    background-size: cover;
+}
+
+#custom-cont {
+    height: 32vw;
+    width: 40%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#availability .icon {
+    font-size: 2.5rem; 
+    width: 50%;
+}
+
+#five {
+    height: 33vw;
+    background-image: url(call.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#five .container {
+    width: 58%;
+    height: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gap-three {
+    height: 10vw;
+}
+
+#six {
+    height: 50vw;
+}
+
+#status {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.progress {
+    border-radius: 0;
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: #bf9c61;
+}
+
+#home-service {
+    background-image: url(home-service.jpg);
+    background-size: cover;
+}
+
+#seven {
+    height: 30vw;
+}
+
+#craft {
+    background-image: url(craft.jpg);
+    background-size: cover;
+}
+
+#craft .container {
+    height: 15vw;
+    width: 90%;
+}
+
+.features .container {
+    height: 25vw;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#eight {
+    height: 75vw;
+    background-image: url(team_bg.jpg);
+    background-size: cover;
+    border: 1px solid #f2f2ef;
+}
+
+#eight #top-custom {
+    margin: auto;
+    margin-top: 10%;
+    height: 9%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#eight #bottom-custom {
+    height: 52%;
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+#bottom-custom .row {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.team-member {
+    height: 165px; 
+    width: 165px; 
+    border: 3px solid rgb(226, 215, 194); 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pic1 {
+    background-image: url(emerson.jpg);
+    background-size: cover;
+}
+
+#pic2 {
+    background-image: url(james.jpg);
+    background-size: cover;
+}
+
+#pic3 {
+    background-image: url(crawford.jpg);
+    background-size: cover;
+}
+
+#pic4 {
+    background-image: url(david.jpg);
+    background-size: cover;
+}
+
+.pic-bg {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#nine {
+    height: 75vw;
+    border: 1px solid #594838;
+    background-image: url(pricing.jpg);
+    background-size: cover;
+}
+
+#nine-top {
+    margin: auto;
+    margin-top: 10%;
+    height: 9%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#nine-bottom {
+    margin: auto;
+    margin-top: 10%;
+    height: 55%;
+    width: 88%;
+}
+
+#nine-bottom .row {
+    height: 100%; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0;
+}
+
+.pricing-top {
+    height: 30%;
+}
+
+.pricing-mid {
+    height: 50%;
+    background-color: #f2f2ef;
+    font-weight: 300;
+}
+
+.pricing-mid .feature {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #707070;  
+    height: 20%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.pricing-bottom {
+    height: 20%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-btn .btn-primary:hover {
+    background-color: #bf9c61 !important;
+    color: white !important;
+}
+
+#ten {
+    height: 50vw;
+}
+
+#ten .row {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#ten-left {
+    background-image: url(quality.jpg);
+    background-size: cover;
+}
+
+.iner-left {
+    max-width: 100px;
+}
+
+#eleven {
+    height: 15vw;
+}
+
+#commercial {
+    background-image: url(commercial.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.togle {
+    height: 100%;
+    width: 100%;
+}
+
+.togle .type-one {
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #bf9c61;
+    opacity: 0.9;
+}
+
+.type-one .container {
+    height: 85%;
+    width: 90%;
+}
+
+#residential {
+    background-image: url(residential.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#woodsupply {
+    background-image: url(woodsupply.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#cabinetry {
+    background-image: url(cabinetry.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#homewood-1 {
+    background-image: url(homewood.png);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#indoor-1 {
+    background-image: url(indoor.png);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#homewood-2 {
+    background-image: url(homewood.png);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#indoor-2 {
+    background-image: url(indoor.png);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#twelve {
+    height: 55vw;
+    background-image: url(team_bg.jpg);
+    background-size: cover;
+    border: 1px solid #f2f2ef
+}
+
+#twelve-top {
+    margin: auto;
+    margin-top: 8%;
+    height: 8vw;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#twelve-bottom {
+    height: 38vw;
+    width: 87%;
+    margin: auto;
+    margin-top: 8%;
+}
+
+#news1 {
+    background-image: url(news1.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+#news2 {
+    background-image: url(news2.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.twelve-inner {
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.inner-box {
+    height: 70%;
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.twelve-outer {
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.outer-box {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#thirteen {
+    margin-top: 10%;
+    height: 48vw;
+    background-image: url(electrical.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#thirteen .container {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#elec-btn {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+#elec-btn .btn:hover {
+    background-color: #bf9c61 !important;
+    color: white !important;
+}
+
+#fourteen {
+    height: 55vw;
+}
+
+#fourteen .row {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#fourteen-left {
+    height: 100%;
+    background-image: url(contact.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#fourteen-cont {
+    height: 65%;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+#fourteen-right {
+    display: flex;
+    align-items: center;
+}
+
+#fourteen-right .container {
+    height: 85%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#mail a:hover {
+    color: #4d412f !important;
+}
+
+input {
+    height: 3rem;
+    width: 100%;
+    border-radius: 5px;
+    color: #2b2b2b;
+    background-color: #f2f2ef;
+    border: 1px solid transparent;
+    padding-left: 15px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    height: 8rem;
+    width: 100%;
+    border-radius: 5px;
+    color: #2b2b2b;
+    background-color: #f2f2ef;
+    border: 1px solid transparent;
+    padding-left: 15px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-outline-secondary:hover {
+    background-color: rgb(191, 156, 97);
+    color: white !important;
+}
+
+footer {
+    height: 8vw;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    width: 20%;
+    height: 1.5rem;
+    font-size: 0.875rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bf9c61;
+}
+
+footer a:hover {
+    color: #4d412f;
+}
