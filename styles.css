@@ -1,14 +1,19 @@
+/* The normal styling of website has been done in this file  */
+
+/* Removing padding margin from the website  */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* The default family and font weight of the website  */
 body {
     font-family: montserrat;
     font-weight: 700;
 }
 
+/* Header Styling  */
 #top-nav{
     height: 51px;
     background-color: black;
@@ -83,6 +88,7 @@ body {
     color: #bf9c61 !important;
 }
 
+/* Section1 Styling  */
 #hero {
     height: 38vw;
 }
@@ -165,10 +171,12 @@ body {
     height: 100%;
 }
 
+/* GapType1 Styling  */
 .gap-one {
     height: 10vw;
 }
 
+/* Section2 Styling  */
 #two {
     height: 50vw;
 }
@@ -188,14 +196,17 @@ body {
     color: white !important;
 }
 
+/* GapType2 Styling  */
 .gap-two {
     height: 10vw;
 }
 
+/* Section3 Styling  */
 #three {
     height: 50vw;
 }
 
+/* Section4 Styling  */
 #four {
     height: 50vw;
     background-image: url(services.jpg);
@@ -216,6 +227,7 @@ body {
     width: 50%;
 }
 
+/* Section5 Styling  */
 #five {
     height: 33vw;
     background-image: url(call.jpg);
@@ -232,10 +244,12 @@ body {
     justify-content: space-between;
 }
 
+/* GapType3 Styling  */
 .gap-three {
     height: 10vw;
 }
 
+/* Section6 Styling  */
 #six {
     height: 50vw;
 }
@@ -262,6 +276,7 @@ body {
     background-size: cover;
 }
 
+/* Section7 Styling  */
 #seven {
     height: 30vw;
 }
@@ -284,6 +299,7 @@ body {
     justify-content: space-around;
 }
 
+/* Section8 Styling  */
 #eight {
     height: 75vw;
     background-image: url(team_bg.jpg);
@@ -353,6 +369,7 @@ body {
     border-radius: 50%;
 }
 
+/* Section9 Styling  */
 #nine {
     height: 75vw;
     border: 1px solid #594838;
@@ -416,6 +433,7 @@ body {
     color: white !important;
 }
 
+/* Section10 Styling  */
 #ten {
     height: 50vw;
 }
@@ -436,6 +454,7 @@ body {
     max-width: 100px;
 }
 
+/* Section11 Styling  */
 #eleven {
     height: 15vw;
 }
@@ -516,6 +535,7 @@ body {
     margin: 0;
 }
 
+/* Section12 Styling  */
 #twelve {
     height: 55vw;
     background-image: url(team_bg.jpg);
@@ -588,6 +608,7 @@ body {
     justify-content: space-between;
 }
 
+/* Section13 Styling  */
 #thirteen {
     margin-top: 10%;
     height: 48vw;
@@ -616,6 +637,7 @@ body {
     color: white !important;
 }
 
+/* Section14 Styling  */
 #fourteen {
     height: 55vw;
 }
@@ -690,6 +712,7 @@ textarea {
     color: white !important;
 }
 
+/* Footer Styling  */
 footer {
     height: 8vw;
     background-color: #181818;
