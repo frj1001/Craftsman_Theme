@@ -1,3 +1,6 @@
+/* Responsiveness of the website on different screen sizes has been done in this file  */
+
+/* Responsiveness upto 910px */
 @media (max-width:910px){
     #top-nav {
         height: 75px;
@@ -12,6 +15,7 @@
     }
 }
 
+/* Responsiveness upto 767px */
 @media (max-width:767px){
     #top-nav {
         display: none;        
@@ -19,6 +23,7 @@
 
 }
 
+/* Responsiveness starting from 992px */
 @media (min-width:992px){
     #brand1 {
         display: none;
@@ -33,6 +38,7 @@
     }
 }
 
+/* Responsiveness upto 991px */
 @media (max-width:991px){
     #brand2 {
         display: none;
@@ -54,6 +60,7 @@
     }
 }
 
+/* Responsiveness upto 1200px */
 @media (max-width:1200px){
     .gap-one {
         display: none;
@@ -63,12 +70,14 @@
     }
 }
 
+/* Responsiveness starting from 1200px */
 @media (min-width:1200px){
     .alias-mid1 {
         display: flex !important;
     }
 }
 
+/* Responsiveness from 1200px to 1299px */
 @media (min-width:1200px) and (max-width:1299px){
     #four {
         height: 53vw;
@@ -120,7 +129,7 @@
 }
 
 
-
+/* Responsiveness from 992px to 1199px */
 @media (min-width:992px) and (max-width:1199px){
     #brand2 {
         display: none;
@@ -344,6 +353,7 @@
     }
 }
 
+/* Responsiveness from 768px to 991px */
 @media (min-width:768px) and (max-width:991px){
     #hero {
         height: 80vw;
@@ -604,6 +614,7 @@
     }
 }
 
+/* Responsiveness from 576px to 767px */
 @media (min-width:576px) and (max-width:767px){
     #hero {
         height: 100vw;
@@ -933,6 +944,8 @@
     }
 
 }
+
+/* Responsiveness from 360px to 575px */
 @media (min-width:360px) and (max-width:575px){
     #hero {
         height: 150vw;
