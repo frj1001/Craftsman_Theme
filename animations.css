@@ -1,3 +1,6 @@
+/* Animations for the website has been done in this file */
+
+/* Animations for the navbar toggler button that transforms from bars to cross on toggling */
 .navbar-toggler {
     width: 15px;
     height: 10px;
@@ -71,6 +74,7 @@
     transform: rotate(0deg);
 }
 
+/* Animations for the hero section with keyframes */
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -254,7 +258,7 @@
     }
   }
   
-   
+/* Animations on hover of Section8 */  
 #emerson:hover,
 #james:hover,
 #crawford:hover,
@@ -287,6 +291,7 @@
     color: black !important;
 }
 
+/* Animations for progress bar in Section6 */
 .progress-bar-animated {
     animation: growright 1s ease-in 1;
 }
